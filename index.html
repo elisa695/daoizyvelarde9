@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Propuesta Exclusiva de Venta | C/ Daoiz y Velarde, 9 - María</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        fuchsiaCorp: '#dd116f',
+                        fuchsiaHover: '#b50a58',
+                        fuchsiaLight: '#fdf0f5',
+                        fuchsiaMuted: 'rgba(221, 17, 111, 0.08)',
+                        creamBg: '#fbf9f6',
+                        creamSurface: '#f5f0e8',
+                        creamBorder: '#e8dfd1',
+                        charcoal: '#1a1a1a',
+                        softGray: '#666666'
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'luxury': '0 20px 40px -15px rgba(0, 0, 0, 0.07)',
+                        'fuchsia-glow': '0 10px 25px -5px rgba(221, 17, 111, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #fbf9f6;
+            color: #1a1a1a;
+            overflow-x: hidden;
+        }
+        .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-pattern {
+            background-image: radial-gradient(rgba(221, 17, 111, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(232, 223, 209, 0.6);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-fuchsiaCorp selection:text-white">
+
+    <!-- Top Sticky Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-creamBorder transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+            <!-- Brand / Logo -->
+            <div class="flex items-center gap-2.5 sm:gap-3">
+                <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-fuchsiaCorp flex items-center justify-center text-white font-bold text-sm sm:text-lg shadow-md shrink-0">
+                    M
+                </div>
+                <div>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-widest text-fuchsiaCorp font-semibold block leading-tight">Propuesta Privada</span>
+                    <span class="text-xs sm:text-sm font-semibold text-charcoal block leading-tight">Exclusiva para María</span>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden lg:flex items-center gap-6">
+                <a href="#valoracion" class="text-xs font-semibold text-charcoal hover:text-fuchsiaCorp transition-colors uppercase tracking-wider">Valoración</a>
+                <a href="#roadmap" class="text-xs font-semibold text-charcoal hover:text-fuchsiaCorp transition-colors uppercase tracking-wider">Roadmap</a>
+                <a href="#estrategia" class="text-xs font-semibold text-charcoal hover:text-fuchsiaCorp transition-colors uppercase tracking-wider">Plan de Difusión</a>
+                <a href="#garantias" class="text-xs font-semibold text-charcoal hover:text-fuchsiaCorp transition-colors uppercase tracking-wider">Garantías</a>
+            </nav>
+
+            <!-- Action Button Header -->
+            <div class="flex items-center gap-2">
+                <button onclick="openModal()" class="bg-fuchsiaCorp hover:bg-fuchsiaHover text-white px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full text-[11px] sm:text-xs font-semibold uppercase tracking-wider shadow-fuchsia-glow hover:shadow-lg transition-all transform active:scale-95 flex items-center gap-1.5 sm:gap-2">
+                    <i data-lucide="check-circle-2" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+                    <span>Aprobar Plan</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-8 pb-12 sm:pt-16 sm:pb-24 lg:pt-20 lg:pb-32 overflow-hidden bg-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                <!-- Left Column Text -->
+                <div class="lg:col-span-7 space-y-4 sm:space-y-6 text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-fuchsiaLight text-fuchsiaCorp text-[11px] sm:text-xs font-bold uppercase tracking-wider border border-fuchsiaCorp/20">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0"></i>
+                        <span>Estrategia Personalizada de Comercialización</span>
+                    </div>
+
+                    <h1 class="serif-font text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-charcoal leading-tight">
+                        María, así vamos a vender tu casa por un <span class="italic text-fuchsiaCorp font-semibold">precio óptimo</span> de mercado.
+                    </h1>
+
+                    <p class="text-softGray text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl">
+                        Presentamos el plan integral de comunicación, filtro comprador y posicionamiento de alto impacto para tu propiedad en la <strong class="text-charcoal font-semibold">Calle Daoiz y Velarde, 9</strong>. Un proceso transparente, exclusivo y diseñado para maximizar el valor final de tu patrimonio.
+                    </p>
+
+                    <!-- Property Quick Summary Badges -->
+                    <div class="pt-2 sm:pt-4 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3">
+                        <div class="bg-white p-3 rounded-2xl border border-creamBorder shadow-sm">
+                            <div class="text-fuchsiaCorp mb-1"><i data-lucide="maximize" class="w-4 h-4 sm:w-5 sm:h-5"></i></div>
+                            <div class="text-base sm:text-lg font-bold text-charcoal">171 m²</div>
+                            <div class="text-[11px] sm:text-xs text-softGray">Superficie construida</div>
+                        </div>
+                        <div class="bg-white p-3 rounded-2xl border border-creamBorder shadow-sm">
+                            <div class="text-fuchsiaCorp mb-1"><i data-lucide="bed" class="w-4 h-4 sm:w-5 sm:h-5"></i></div>
+                            <div class="text-base sm:text-lg font-bold text-charcoal">4 Hab.</div>
+                            <div class="text-[11px] sm:text-xs text-softGray">Habitaciones</div>
+                        </div>
+                        <div class="bg-white p-3 rounded-2xl border border-creamBorder shadow-sm">
+                            <div class="text-fuchsiaCorp mb-1"><i data-lucide="bath" class="w-4 h-4 sm:w-5 sm:h-5"></i></div>
+                            <div class="text-base sm:text-lg font-bold text-charcoal">2 Baños</div>
+                            <div class="text-[11px] sm:text-xs text-softGray">Distribución óptima</div>
+                        </div>
+                        <div class="bg-white p-3 rounded-2xl border border-creamBorder shadow-sm">
+                            <div class="text-fuchsiaCorp mb-1"><i data-lucide="hammer" class="w-4 h-4 sm:w-5 sm:h-5"></i></div>
+                            <div class="text-base sm:text-lg font-bold text-fuchsiaCorp">A reformar</div>
+                            <div class="text-[11px] sm:text-xs text-softGray">Gran potencial</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column Visual Hero Card (Image-Free Design) -->
+                <div class="lg:col-span-5 relative mt-4 lg:mt-0">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Luxury Feature Card with Gradient & Iconography -->
+                        <div class="relative rounded-3xl p-6 sm:p-8 border border-creamBorder bg-gradient-to-br from-white via-creamBg to-creamSurface shadow-luxury overflow-hidden">
+                            <!-- Background Subtle Accent Circle -->
+                            <div class="absolute -top-12 -right-12 w-32 h-32 sm:w-40 sm:h-40 bg-fuchsiaMuted rounded-full blur-2xl pointer-events-none"></div>
+
+                            <div class="relative z-10 space-y-5 sm:space-y-6">
+                                <div class="flex justify-between items-start">
+                                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center font-bold shadow-sm">
+                                        <i data-lucide="building-2" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                                    </div>
+                                    <span class="bg-fuchsiaLight text-fuchsiaCorp text-[10px] sm:text-xs px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full font-bold border border-fuchsiaCorp/20 uppercase tracking-wider">
+                                        Proyecto Exclusivo
+                                    </span>
+                                </div>
+
+                                <div>
+                                    <span class="text-[11px] sm:text-xs font-bold text-fuchsiaCorp uppercase tracking-widest block mb-1">Inmueble Singular</span>
+                                    <h3 class="serif-font text-xl sm:text-2xl font-semibold text-charcoal">Calle Daoiz y Velarde, 9</h3>
+                                    <p class="text-xs text-softGray mt-1">Ubicación estratégica • Amplias posibilidades de reforma</p>
+                                </div>
+
+                                <div class="space-y-2.5 sm:space-y-3 pt-4 border-t border-creamBorder">
+                                    <div class="flex items-center justify-between text-xs">
+                                        <span class="text-softGray flex items-center gap-1.5">
+                                            <i data-lucide="maximize" class="w-3.5 h-3.5 text-fuchsiaCorp"></i> Superficie
+                                        </span>
+                                        <span class="font-bold text-charcoal">171 m² construidos</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs">
+                                        <span class="text-softGray flex items-center gap-1.5">
+                                            <i data-lucide="compass" class="w-3.5 h-3.5 text-fuchsiaCorp"></i> Orientación
+                                        </span>
+                                        <span class="font-bold text-charcoal">Norte • Sur • Este</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs">
+                                        <span class="text-softGray flex items-center gap-1.5">
+                                            <i data-lucide="flame" class="w-3.5 h-3.5 text-fuchsiaCorp"></i> Calefacción
+                                        </span>
+                                        <span class="font-bold text-charcoal">Individual Gas Natural</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs">
+                                        <span class="text-softGray flex items-center gap-1.5">
+                                            <i data-lucide="accessibility" class="w-3.5 h-3.5 text-fuchsiaCorp"></i> Accesibilidad
+                                        </span>
+                                        <span class="font-bold text-fuchsiaCorp">Adaptado 100%</span>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 border-t border-creamBorder flex items-center gap-3">
+                                    <div class="p-2 sm:p-2.5 bg-fuchsiaLight rounded-xl text-fuchsiaCorp shrink-0">
+                                        <i data-lucide="shield-check" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                                    </div>
+                                    <div class="text-xs">
+                                        <span class="font-bold block text-charcoal">Multiexclusiva Red AFILIA</span>
+                                        <span class="text-softGray">4 Meses de Cobertura Total</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Valuation Section -->
+    <section id="valoracion" class="py-12 sm:py-20 bg-white border-y border-creamBorder relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+                <span class="text-xs uppercase tracking-widest text-fuchsiaCorp font-bold block mb-2">Estudio de Mercado Real</span>
+                <h2 class="serif-font text-2xl sm:text-4xl text-charcoal font-normal">Horquilla de Valoración Estratégica</h2>
+                <div class="w-16 h-0.5 bg-fuchsiaCorp mx-auto my-3 sm:my-4"></div>
+                <p class="text-softGray text-xs sm:text-base">
+                    Basándonos en el análisis comparativo de ventas recientes en la zona, metros cuadrados (171 m²), estado para reformar y su orientación privilegiada, determinamos este rango objetivo.
+                </p>
+            </div>
+
+            <!-- Valuation 3-Card Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 items-stretch">
+                
+                <!-- Minimum Valuation Card -->
+                <div class="bg-creamBg rounded-3xl p-6 sm:p-8 border border-creamBorder hover:border-fuchsiaCorp/30 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3 sm:mb-4">
+                            <span class="text-xs uppercase font-bold text-softGray tracking-wider">Mínimo Aproximado</span>
+                            <span class="p-2 rounded-full bg-creamSurface text-softGray"><i data-lucide="trending-down" class="w-4 h-4"></i></span>
+                        </div>
+                        <div class="serif-font text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-2">
+                            571.000 <span class="text-lg sm:text-xl font-normal">€</span>
+                        </div>
+                        <p class="text-xs text-softGray leading-relaxed mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-creamBorder">
+                            Precio suelo estimado para cierres rápidos en escenarios conservadores o inversores en busca de alta rentabilidad inmediata.
+                        </p>
+                    </div>
+                    <div class="mt-6 sm:mt-8 text-xs font-semibold text-softGray uppercase tracking-wider flex items-center gap-2">
+                        <div class="w-2 h-2 rounded-full bg-gray-400"></div> Escenario Mínimo Garantizado
+                    </div>
+                </div>
+
+                <!-- OPTIMAL VALUATION CARD (FEATURED) -->
+                <div class="bg-gradient-to-b from-fuchsiaLight/90 to-white rounded-3xl p-6 sm:p-8 border-2 border-fuchsiaCorp shadow-fuchsia-glow relative flex flex-col justify-between my-2 md:my-0 md:transform md:-translate-y-4">
+                    
+                    <!-- Featured Badge -->
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-fuchsiaCorp text-white text-[10px] sm:text-xs font-bold uppercase tracking-widest px-3.5 py-1 rounded-full shadow-md flex items-center gap-1.5 shrink-0 whitespace-nowrap">
+                        <i data-lucide="target" class="w-3.5 h-3.5"></i>
+                        <span>Objetivo Recomendado</span>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-between mb-3 sm:mb-4 pt-2">
+                            <span class="text-xs uppercase font-bold text-fuchsiaCorp tracking-wider">Precio Óptimo de Venta</span>
+                            <span class="p-2 rounded-full bg-fuchsiaCorp text-white"><i data-lucide="star" class="w-4 h-4"></i></span>
+                        </div>
+                        <div class="serif-font text-3xl sm:text-4xl lg:text-5xl font-bold text-fuchsiaCorp mb-2">
+                            600.000 <span class="text-xl sm:text-2xl font-normal">€</span>
+                        </div>
+                        <p class="text-xs text-charcoal font-medium leading-relaxed mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-fuchsiaCorp/20">
+                            <strong>El punto dulce del mercado.</strong> Equilibrio perfecto entre maximizar la rentabilidad de María y mantener una atracción masiva de compradores cualificados.
+                        </p>
+                    </div>
+
+                    <div class="mt-6 sm:mt-8">
+                        <div class="w-full bg-creamSurface rounded-full h-2 mb-2 overflow-hidden">
+                            <div class="bg-fuchsiaCorp h-full rounded-full" style="width: 70%"></div>
+                        </div>
+                        <div class="flex justify-between text-xs font-bold text-fuchsiaCorp">
+                            <span>Posicionamiento Eficiente</span>
+                            <span>100% Objetivo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maximum Valuation Card -->
+                <div class="bg-creamBg rounded-3xl p-6 sm:p-8 border border-creamBorder hover:border-fuchsiaCorp/30 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3 sm:mb-4">
+                            <span class="text-xs uppercase font-bold text-softGray tracking-wider">Máximo Aproximado</span>
+                            <span class="p-2 rounded-full bg-creamSurface text-softGray"><i data-lucide="trending-up" class="w-4 h-4"></i></span>
+                        </div>
+                        <div class="serif-font text-2xl sm:text-3xl lg:text-4xl font-bold text-charcoal mb-2">
+                            635.000 <span class="text-lg sm:text-xl font-normal">€</span>
+                        </div>
+                        <p class="text-xs text-softGray leading-relaxed mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-creamBorder">
+                            Techo de valoración para prueba inicial de mercado o compradores con proyecto de reforma integral de alto standing.
+                        </p>
+                    </div>
+                    <div class="mt-6 sm:mt-8 text-xs font-semibold text-softGray uppercase tracking-wider flex items-center gap-2">
+                        <div class="w-2 h-2 rounded-full bg-fuchsiaCorp"></div> Techo Estratégico
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Technical Summary Block -->
+            <div class="mt-8 sm:mt-12 p-5 sm:p-6 bg-creamSurface rounded-2xl border border-creamBorder flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div class="flex items-center gap-3.5">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-white border border-creamBorder flex items-center justify-center text-fuchsiaCorp shrink-0">
+                        <i data-lucide="layers" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-charcoal text-xs sm:text-sm">Potencial de Reforma en C/ Daoiz y Velarde, 9</h4>
+                        <p class="text-xs text-softGray mt-0.5">Sus 171 m² y su orientación Norte-Sur-Este permiten un proyecto arquitectónico de iluminación excepcional.</p>
+                    </div>
+                </div>
+                <button onclick="openModal()" class="shrink-0 text-xs font-bold text-fuchsiaCorp hover:text-fuchsiaHover underline uppercase tracking-wider self-end sm:self-auto">
+                    Aprobar valoración →
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sales Roadmap Timeline Section -->
+    <section id="roadmap" class="py-12 sm:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+                <span class="text-xs uppercase tracking-widest text-fuchsiaCorp font-bold block mb-2">Cronograma del Proceso</span>
+                <h2 class="serif-font text-2xl sm:text-4xl text-charcoal font-normal">Roadmap de Venta en 5 Pasos</h2>
+                <div class="w-16 h-0.5 bg-fuchsiaCorp mx-auto my-3 sm:my-4"></div>
+                <p class="text-softGray text-xs sm:text-base">
+                    Desde el primer análisis hasta la entrega de llaves ante notario. Así estructuramos paso a paso cada fase para garantizar fluidez y seguridad.
+                </p>
+            </div>
+
+            <!-- Timeline visual steps -->
+            <div class="relative">
+                <!-- Line background for desktop -->
+                <div class="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-creamBorder -translate-y-1/2 z-0"></div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 relative z-10">
+                    
+                    <!-- Step 1 -->
+                    <div class="bg-creamBg rounded-2xl p-5 sm:p-6 border border-creamBorder hover:border-fuchsiaCorp transition-all group hover:-translate-y-1 duration-300">
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white border border-creamBorder text-fuchsiaCorp font-bold text-base sm:text-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-fuchsiaCorp group-hover:text-white transition-colors shadow-sm">
+                            01
+                        </div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsiaCorp block mb-1">Paso 1</span>
+                        <h3 class="font-bold text-charcoal text-sm sm:text-base mb-1.5">Valoración</h3>
+                        <p class="text-xs text-softGray leading-relaxed">
+                            Estudio gratuito de mercado y fijación del precio estratégico de salida junto a María.
+                        </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-creamBg rounded-2xl p-5 sm:p-6 border border-creamBorder hover:border-fuchsiaCorp transition-all group hover:-translate-y-1 duration-300">
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white border border-creamBorder text-fuchsiaCorp font-bold text-base sm:text-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-fuchsiaCorp group-hover:text-white transition-colors shadow-sm">
+                            02
+                        </div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsiaCorp block mb-1">Paso 2</span>
+                        <h3 class="font-bold text-charcoal text-sm sm:text-base mb-1.5">Papeleo</h3>
+                        <p class="text-xs text-softGray leading-relaxed">
+                            Recopilación documental, firma de encargo en multiexclusiva y dossier legal.
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-creamBg rounded-2xl p-5 sm:p-6 border border-creamBorder hover:border-fuchsiaCorp transition-all group hover:-translate-y-1 duration-300">
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white border border-creamBorder text-fuchsiaCorp font-bold text-base sm:text-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-fuchsiaCorp group-hover:text-white transition-colors shadow-sm">
+                            03
+                        </div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsiaCorp block mb-1">Paso 3</span>
+                        <h3 class="font-bold text-charcoal text-sm sm:text-base mb-1.5">Marketing Premium</h3>
+                        <p class="text-xs text-softGray leading-relaxed">
+                            Volcados en Red AFILIA, escaparate 24/7 y posicionamiento en portales.
+                        </p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="bg-creamBg rounded-2xl p-5 sm:p-6 border border-creamBorder hover:border-fuchsiaCorp transition-all group hover:-translate-y-1 duration-300">
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white border border-creamBorder text-fuchsiaCorp font-bold text-base sm:text-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-fuchsiaCorp group-hover:text-white transition-colors shadow-sm">
+                            04
+                        </div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsiaCorp block mb-1">Paso 4</span>
+                        <h3 class="font-bold text-charcoal text-sm sm:text-base mb-1.5">Lanzamiento</h3>
+                        <p class="text-xs text-softGray leading-relaxed">
+                            Filtro riguroso de solvencia económica de interesados y visitas coordinadas.
+                        </p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="bg-creamBg rounded-2xl p-5 sm:p-6 border border-creamBorder hover:border-fuchsiaCorp transition-all group hover:-translate-y-1 duration-300 sm:col-span-2 lg:col-span-1">
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-fuchsiaLight border border-fuchsiaCorp/30 text-fuchsiaCorp font-bold text-base sm:text-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-fuchsiaCorp group-hover:text-white transition-colors shadow-sm">
+                            05
+                        </div>
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsiaCorp block mb-1">Paso 5</span>
+                        <h3 class="font-bold text-charcoal text-sm sm:text-base mb-1.5">Cierre</h3>
+                        <p class="text-xs text-softGray leading-relaxed">
+                            Negociación, reserva/arras blindando hasta el 10% y firma ante notario.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Marketing Invisible & Full Process Section -->
+    <section id="estrategia" class="py-12 sm:py-20 bg-creamBg relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="max-w-3xl mb-10 sm:mb-16">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fuchsiaLight text-fuchsiaCorp text-xs font-bold uppercase tracking-wider mb-3">
+                    <i data-lucide="eye-off" class="w-3.5 h-3.5 shrink-0"></i>
+                    <span>Marketing Invisible & Red AFILIA</span>
+                </div>
+                <h2 class="serif-font text-2xl sm:text-3xl lg:text-4xl text-charcoal font-normal">
+                    Así estructuramos nuestro proceso de trabajo con la propiedad
+                </h2>
+                <p class="text-softGray text-xs sm:text-base mt-3 sm:mt-4">
+                    Garantizamos una venta ágil, transparente y con las máximas garantías legales y financieras a través de 5 pilares estratégicos:
+                </p>
+            </div>
+
+            <!-- Detailed Process Grid (5 Detailed Pillars) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                
+                <!-- Pillar 1 -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-creamBorder shadow-sm hover:shadow-luxury transition-all">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mb-5 sm:mb-6">
+                        <i data-lucide="calculator" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-charcoal mb-3">Valoración gratuita y asesoramiento personalizado</h3>
+                    <p class="text-xs sm:text-sm text-softGray leading-relaxed">
+                        Realizamos una valoración de tu inmueble totalmente gratuita y sin compromiso para acordar el precio de venta más adecuado al mercado. En todo momento actuamos como tus asesores expertos, aportando datos e información de valor, <strong class="text-charcoal font-semibold">pero la última palabra sobre el precio de venta la tienes tú como propietario.</strong>
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-creamBorder shadow-sm hover:shadow-luxury transition-all">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mb-5 sm:mb-6">
+                        <i data-lucide="users-2" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-charcoal mb-3">Formalización del encargo y multiexclusiva</h3>
+                    <p class="text-xs sm:text-sm text-softGray leading-relaxed">
+                        Firmamos el acuerdo de comercialización por un periodo de <strong class="text-charcoal font-semibold">4 meses en régimen de multiexclusiva</strong>. Esto nos permite trabajar con total implicación y volcar todos nuestros recursos en tu vivienda, además de dar acceso a la <strong class="text-charcoal font-semibold">red MLS y a la plataforma AFILIA</strong> para que decenas de agencias colaboradoras también puedan ofrecer tu inmueble a sus compradores.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-creamBorder shadow-sm hover:shadow-luxury transition-all">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mb-5 sm:mb-6">
+                        <i data-lucide="megaphone" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-charcoal mb-3">Estrategia de comercialización y máxima visibilidad</h3>
+                    <p class="text-xs sm:text-sm text-softGray leading-relaxed mb-4">
+                        Una vez firmado el encargo, desplegamos nuestro plan de difusión integral:
+                    </p>
+                    <ul class="space-y-3 text-xs sm:text-sm text-softGray">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-fuchsiaCorp shrink-0 mt-0.5"></i>
+                            <span><strong>Portales inmobiliarios:</strong> Posicionamiento premium para ubicar tu vivienda siempre en las primeras páginas.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-fuchsiaCorp shrink-0 mt-0.5"></i>
+                            <span><strong>Escaparate y pantalla exterior 24/7:</strong> Exposición en la pantalla digital de nuestra oficina en calle de gran afluencia peatonal.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="check" class="w-4 h-4 text-fuchsiaCorp shrink-0 mt-0.5"></i>
+                            <span><strong>Web corporativa y redes colaborativas:</strong> Difusión instantánea en bases de datos MLS.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-creamBorder shadow-sm hover:shadow-luxury transition-all">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mb-5 sm:mb-6">
+                        <i data-lucide="shield-alert" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg sm:text-xl text-charcoal mb-3">Gestión de ofertas y reserva formal</h3>
+                    <p class="text-xs sm:text-sm text-softGray leading-relaxed">
+                        Atendemos y filtramos a los compradores interesados, coordinando las visitas para no hacerte perder el tiempo. Gestionamos la negociación y estamos facultados para formalizar contratos de reserva o arras en tu nombre, <strong class="text-charcoal font-semibold">reteniendo hasta un 10% del precio de venta</strong> para blindar legalmente la operación hasta el día de la escritura pública.
+                    </p>
+                </div>
+
+                <!-- Pillar 5 (Guarantee & Success Commitment) -->
+                <div id="garantias" class="bg-gradient-to-br from-charcoal to-gray-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl lg:col-span-2 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 sm:w-48 sm:h-48 bg-fuchsiaCorp/20 rounded-full blur-3xl pointer-events-none"></div>
+
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fuchsiaCorp/30 text-fuchsiaLight text-xs font-bold uppercase tracking-wider mb-4 border border-fuchsiaCorp/40">
+                            <i data-lucide="award" class="w-4 h-4 text-fuchsiaCorp"></i>
+                            <span>Garantía Absoluta para María</span>
+                        </div>
+                        <h3 class="serif-font text-xl sm:text-2xl lg:text-3xl font-normal mb-3 sm:mb-4 text-white">
+                            Compromiso a éxito: si no vendemos, no cobramos.
+                        </h3>
+                        <p class="text-gray-300 text-xs sm:text-sm leading-relaxed mb-6">
+                            Todos estos servicios de valoración, fotografía, marketing de alta visibilidad, filtros de clientes y gestión jurídica están incluidos en nuestra factura de honorarios (fijados en el <strong class="text-white font-semibold">4% del precio final de venta más IVA</strong>, con un mínimo de <strong class="text-white font-semibold">6.000 € más IVA</strong>).
+                        </p>
+                        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 text-xs text-gray-200">
+                            <p class="font-semibold text-white mb-1 flex items-center gap-1.5">
+                                <i data-lucide="check-circle" class="w-4 h-4 text-fuchsiaCorp shrink-0"></i>
+                                <span>Sin sorpresas ni costes por adelantado:</span>
+                            </p>
+                            La factura solo se abonará cuando encontremos al comprador final y formalicemos el contrato de arras o la compraventa. <strong class="text-white">Si no vendemos la propiedad, no nos debes absolutamente nada.</strong>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 sm:mt-8 pt-5 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <span class="text-xs text-gray-400">Riesgo 0% garantizado para la propietaria</span>
+                        <button onclick="openModal()" class="w-full sm:w-auto bg-fuchsiaCorp hover:bg-fuchsiaHover text-white px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg transition-all active:scale-95 text-center">
+                            Aprobar Propuesta
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section for María -->
+    <section class="py-12 sm:py-20 bg-white border-t border-creamBorder">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 rounded-3xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mx-auto mb-5 sm:mb-6 shadow-sm">
+                <i data-lucide="home" class="w-6 h-6 sm:w-8 sm:h-8"></i>
+            </div>
+            
+            <h2 class="serif-font text-2xl sm:text-4xl lg:text-5xl text-charcoal font-normal mb-4 sm:mb-6">
+                ¿Avanzamos juntos con la venta de Calle Daoiz y Velarde, 9?
+            </h2>
+            
+            <p class="text-softGray text-xs sm:text-base max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed">
+                María, estamos listos para volcar todos nuestros recursos, equipo y tecnología en tu inmueble. Haz clic abajo para confirmar esta propuesta o solicitar una reunión de inicio.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-3.5 sm:gap-4">
+                <button onclick="openModal()" class="w-full sm:w-auto bg-fuchsiaCorp hover:bg-fuchsiaHover text-white px-8 py-3.5 sm:px-10 sm:py-4 rounded-full font-bold text-xs sm:text-sm uppercase tracking-wider shadow-fuchsia-glow hover:shadow-xl transition-all active:scale-95">
+                    Aprobar esta propuesta de venta
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal text-white py-8 sm:py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 text-center md:text-left">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-fuchsiaCorp flex items-center justify-center text-white text-xs font-bold shrink-0">
+                    M
+                </div>
+                <div>
+                    <span class="text-[11px] text-gray-400 block leading-tight">Propuesta Personalizada Inmobiliaria</span>
+                    <span class="text-xs sm:text-sm font-semibold text-white leading-tight">Preparado para María</span>
+                </div>
+            </div>
+
+            <p class="text-[11px] sm:text-xs text-gray-400">
+                © 2026 Red AFILIA & MLS Inmobiliaria. Todos los derechos reservados. <br class="hidden sm:inline">
+                C/ Daoiz y Velarde, 9 (171 m² • 4 Hab • 2 Baños)
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal Dialog -->
+    <div id="approvalModal" class="fixed inset-0 z-50 hidden bg-charcoal/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border border-creamBorder relative animate-in fade-in zoom-in duration-200">
+            <button onclick="closeModal()" class="absolute top-5 right-5 text-softGray hover:text-charcoal p-1">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-fuchsiaLight text-fuchsiaCorp flex items-center justify-center mb-4">
+                <i data-lucide="check-circle" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+            </div>
+
+            <h3 class="serif-font text-xl sm:text-2xl text-charcoal mb-2">¡Gracias, María!</h3>
+            <p class="text-xs text-softGray leading-relaxed mb-5">
+                Hemos registrado tu confirmación de interés para la propuesta comercial de <strong>Calle Daoiz y Velarde, 9</strong>. Tu asesor asignado se pondrá en contacto contigo inmediatamente.
+            </p>
+
+            <form onsubmit="handleFormSubmit(event)" class="space-y-3.5">
+                <div>
+                    <label class="block text-[11px] font-semibold uppercase tracking-wider text-charcoal mb-1">Propietaria</label>
+                    <input type="text" value="María" readonly class="w-full bg-creamBg border border-creamBorder rounded-xl px-3.5 py-2 sm:py-2.5 text-xs text-charcoal font-medium">
+                </div>
+                <div>
+                    <label class="block text-[11px] font-semibold uppercase tracking-wider text-charcoal mb-1">Teléfono de contacto</label>
+                    <input type="tel" placeholder="+34 600 000 000" required class="w-full bg-white border border-creamBorder focus:border-fuchsiaCorp rounded-xl px-3.5 py-2 sm:py-2.5 text-xs text-charcoal outline-none transition-all">
+                </div>
+                <div>
+                    <label class="block text-[11px] font-semibold uppercase tracking-wider text-charcoal mb-1">Horario preferente</label>
+                    <textarea rows="2" placeholder="Ej: Llamar por las tardes..." class="w-full bg-white border border-creamBorder focus:border-fuchsiaCorp rounded-xl px-3.5 py-2 sm:py-2.5 text-xs text-charcoal outline-none transition-all"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-fuchsiaCorp hover:bg-fuchsiaHover text-white py-3 rounded-full text-xs font-bold uppercase tracking-wider shadow-fuchsia-glow transition-all active:scale-95">
+                    Confirmar Reunión
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Modal triggers
+        function openModal() {
+            document.getElementById('approvalModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('approvalModal').classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            closeModal();
+            // User feedback modal or message
+            const confirmationToast = document.createElement('div');
+            confirmationToast.className = 'fixed bottom-5 right-5 bg-charcoal text-white text-xs px-5 py-3 rounded-2xl shadow-xl z-50 border border-fuchsiaCorp/40 flex items-center gap-2';
+            confirmationToast.innerHTML = '<i data-lucide="check-circle" class="w-4 h-4 text-fuchsiaCorp"></i> ¡Mensaje enviado con éxito, María!';
+            document.body.appendChild(confirmationToast);
+            lucide.createIcons();
+            setTimeout(() => confirmationToast.remove(), 4000);
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
